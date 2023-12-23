@@ -71,6 +71,9 @@ p{
 .flex-row{
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 .align-center{
     align-items: center;
 }
@@ -306,4 +309,23 @@ h3{
 }
 .contents .card img{
     width: 100%;
+}
+
+/* ------------ gallery section ------------- */
+.gallery{
+    gap: 33px;
+    margin: 100px auto;
+}
+.gallery div{
+    gap:25px;
+}
+.gallery img{
+    border-radius: 10px ;
+    height: 40vh;
+}
+.gallery p{
+    width: 35%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
 }

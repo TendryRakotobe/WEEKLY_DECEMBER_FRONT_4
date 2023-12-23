@@ -49,7 +49,7 @@ body{
     background-color: var(--dark-background);
     font-family: 'Graphik', sans-serif;
     color: white;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
 }
 a{
     font-size: 14px;
@@ -60,6 +60,7 @@ a{
 p{
     font-size: 16px;
     line-height: 150%;
+    font-weight: 300;
    
 }
 .flex-column{
@@ -80,7 +81,16 @@ h1{
     font-weight: 500;
    
 }
-
+h2{
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 150%;
+}
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
 /* ---------- button --------------- */
 .btn{
     font-size: 14px;
@@ -214,4 +224,48 @@ h1{
     left: 0;
     width: 100%;
     height: 65%;
+}
+
+/* --------------- features section ----------------- */
+.features {
+    align-items: center;
+    gap: 30px;
+}
+.features p{
+    font-size: 16px;
+    text-align: center;
+    width: 40%; 
+}
+.features .content{
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    width: 70%;
+}
+.features .images{
+    position: relative;
+    width: 90%;
+}
+.features .images .chat-bot{
+    width: 100%;
+}
+.features .images .line-chart-1{
+    width: 60%;
+    position: absolute;
+    right: -20px;
+    bottom: -50px;
+}
+.features .text{
+    gap: 50px;
+    width: 40%;
+}
+.features .text .title{
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+.features .text p{
+    font-size: 13px;
+    width: 75%;
+    text-align: left;
 }

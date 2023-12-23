@@ -347,3 +347,38 @@ h3{
 .partners img{
     height: 50px;
 }
+
+/* ---------------- testimonials sectioin -------------- */
+.testimonials{
+    gap: 50px;
+}
+.testimonials .container{
+    gap: 25px;
+    justify-content: center;
+}
+.testimonials .card{
+    padding: 30px;
+    background-color: var(--dark-background);
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+
+}
+.testimonials .flex-column{
+    gap: 20px;
+    width: 27%;
+}
+.testimonials .person{
+    gap: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.person img{
+    height: 45px;
+}
+.person h3{
+    font-size: 14px;
+}
+.testimonials .card p{
+    font-size: 13px;
+    width: 90%;
+}

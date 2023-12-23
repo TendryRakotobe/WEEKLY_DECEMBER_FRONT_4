@@ -40,6 +40,7 @@
 :root{
     --dark-background: #181818;
     --primary: #4452FE;
+    --second-text: #5C5C5C;
 }
 ::before, 
 ::after{
@@ -268,4 +269,41 @@ h3{
     font-size: 13px;
     width: 75%;
     text-align: left;
+}
+
+/* --------------- contents section ------------- */
+.contents{
+    margin-top: 40vh;
+    gap: 10px;
+}
+.contents p{
+    text-align: center;
+    width: 35%;
+}
+.contents .container{
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 30px;
+}
+.contents .card{
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 30px 30px 30px;
+    gap: 25px;
+    width: 39%;
+    justify-content: space-between
+}
+.contents .card h3{
+    color: black;
+    font-weight: 500;
+}
+.contents .card p{
+    color: var(--second-text);
+    font-size: 14px;
+    width: 70%;
+}
+.contents .card img{
+    width: 100%;
 }
